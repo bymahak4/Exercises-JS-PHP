@@ -1,4 +1,4 @@
-# Ejercicios de PHP Básicos Resueltos!
+# Ejercicios De PHP Básicos Resueltos!
 
 ### Ejecución de Docker
 
