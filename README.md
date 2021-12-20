@@ -1,5 +1,8 @@
-# PHP y MySQL con Docker - Para el pueblo!
+# Ejercicios de PHP Básicos Resueltos!
 
-Instalar docker, docker-compose, clonar este repo, y tirar esto en la consola:
-`docker-compose up`
+### Ejecución de Docker
 
+```
+docker build -t "nombre de la imagen" .
+docker run -p 80:80 -d -v "$(pwd)/ex:/var/www/html/" "nombre de la imagen"
+```
