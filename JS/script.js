@@ -5,8 +5,8 @@
 const h1        = document.querySelector('h1');
 const h2        = document.querySelector('h2');
 const p         = document.querySelector('p');
-const parrafito = document.getElementsByClassName('parrafito');      //Cuando ya estas diciendo que vas a pasar una clase o ID no es necesario el "." o "#" solo cuando usas querySelector
-const pid       = document.getElementById('pid');                   //Cuando ya estas diciendo que vas a pasar una clase o ID no es necesario el "." o "#" solo cuando usas querySelector
+const parrafito = document.getElementsByClassName('parrafito'); //Cuando ya estas diciendo que vas a pasar una clase o ID no es necesario el "." o "#" solo cuando usas querySelector
+const pid       = document.getElementById('pid');               //Cuando ya estas diciendo que vas a pasar una clase o ID no es necesario el "." o "#" solo cuando usas querySelector
 const input     = document.querySelector('input');
 
  
@@ -48,7 +48,7 @@ const input1    = document.querySelector('#calculo1');
 const input2    = document.querySelector('#calculo2');
 const btn       = document.querySelector('#btnCalcular');
 const pResult   = document.querySelector('#result');
-const form   = document.querySelector('#form');
+const form      = document.querySelector('#form');
 
 //btn.addEventListener('click', btnOnClick);     // Escucha cada ves que ocurra cierto evento y cada ves que pase ejecuta el codigo
 form.addEventListener('submit', sumarInputValues);
